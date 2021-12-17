@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap'); 
+/*Fuzzy Bubbles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Bebas Neue*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+/*Lora*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/*Architects Daughter*/
+
+.capa{
+    background-image: url(imagens/pexels-nextvoyage-1544410.jpg);
+    min-height: 100%;
+}
+.fim{
+    background-image: url(imagens/pexels-benjamin-suter-2362004.jpg);
+    min-height: 100%;
+    background-blend-mode: luminosity;
+}
+.capa, .segimg, .fim{
+    position: relative;
+   /*opacity: 0.70;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.segimg{
+    background-image: url(imagens/foto-meio-medio.jpg);
+    min-height: 400px;
+}
+div{
+    display: block;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+.title{
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 28px;
+}
+/*#caixadetexto{
+    
+}*/
+.andressa{
+    text-align: justify;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 50px 80px 50px 80px;
+    display:block;
+    font-size: 20px;
+    font-family: Oswald;
+}
+.andressa h2{
+    font-family: Bebas Neue;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 3.4px;
+}
+.andressa h3{
+    font-family: Lora;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.andressa p{
+    font-family: Architects Daughter;
+    text-align: justify;
+    font-size: 20px;
+}
+.ricardo{
+    text-align: justify;
+    display:block;
+    padding: 50px 80px 50px 80px;
+    background-color: #282E34;
+    color:#DDDDDD;
+    font-size: 20px;
+    font-family: Oswald;
+}
+.ricardo h2{
+    font-family: Bebas Neue;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 3.4px;
+}
+.ricardo h3{
+    font-family: Lora;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.ricardo p{
+    font-family: Architects Daughter;
+    text-align: justify;
+    font-size: 20px;
+}
+.spanmeio{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.footer a{
+    font-family: Fuzzy Bubbles;
+    color: dodgerblue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(130, 152, 175);
+}
+.fotoric, .fotoand{
+    background-color: aquamarine;
+    width: 300px;
+    height: 400px;
+    position: left;
+}
+/*.projetos{
+    text-align: center;
+    display:block;
+    padding: 50px 80px 50px 80px;
+    background-color: #282E34;
+    color:#DDDDDD;
+    font-size: 20px;
+    font-family: Bebas Neue;
+    letter-spacing: 3px;
+}*/
